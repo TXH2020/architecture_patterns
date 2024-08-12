@@ -14,3 +14,15 @@
 
    To summarize, all the three mentioned architectures(point-to-point, hub-spoke and SOA) can be considered as primitive forms of a component based architecture, while Microservices is a modern component based architecture.
    
+6. Event Driven Architecture: Here the nodes are of two types: producers and consumers, with respect to events. This pattern is different from competing consumers pattern because in CC pattern, every event is passed only to a single consumer unlike EDA where all consumers get every message. EDA can be implemented using Pub-Sub(once you read, you cant read again) or an event stream(a streaming log. you can replay messages, but you are responsible for pointing/offsets). Best examples are applications involving Google Cloud pub sub and Kafka. Remember Kafka Console Producer and Consumer.
+   
+   [EDA](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven)
+7. N-Tier Architecture(Layered): Consider the application in this link as an example: [link](https://github.com/TXH2020/OtherProjects/tree/main/spring)
+   
+   [N-Tier](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/n-tier)
+
+8. Serverless Architecture: Instead of worrying about how to provision resources to deliver a solution, use a managed service and focus only on the functionality or "function", i.e., the end service provided to the user.
+
+   [Serverless](https://www.spiceworks.com/tech/devops/articles/what-is-serverless/amp/#_003)
+
+9. 
