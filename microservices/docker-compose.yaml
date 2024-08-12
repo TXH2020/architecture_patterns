@@ -1,0 +1,28 @@
+services:
+  # Hi service
+  web1:
+    build:
+      context: hi_app
+      target: builder
+    # flask requires SIGINT to stop gracefully
+    # (default stop signal from Compose is SIGTERM)
+    stop_signal: SIGINT
+    ports:
+      - '5001:5001'
+    networks:
+      - my_net
+  # Hello service
+  web2:
+    build:
+      context: hello_app
+      target: builder
+    # flask requires SIGINT to stop gracefully
+    # (default stop signal from Compose is SIGTERM)
+    stop_signal: SIGINT
+    ports:
+      - '5002:5002'
+    networks:
+      - my_net
+
+networks:
+  my_net: 
