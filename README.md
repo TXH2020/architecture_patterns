@@ -30,3 +30,6 @@
     [About Lambda Architecture](https://www.cazton.com/consulting/enterprise/lambda-architecture)
 
    [Lambda Architecture Example](https://github.com/apssouza22/big-data-pipeline-lambda-arch)
+10. Kappa Architecture: It is a simpler alternative to the lambda architecture, where the streaming engine itself is used to perform batch transactions, eliminating the need for separate batch processing engines.
+    [Kappa architecture](https://hazelcast.com/glossary/kappa-architecture/)
+
