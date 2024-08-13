@@ -25,4 +25,8 @@
 
    [Serverless](https://www.spiceworks.com/tech/devops/articles/what-is-serverless/amp/#_003)
 
-9. 
+9. Lambda Architecture:
+    
+    [About Lambda Architecture](https://www.cazton.com/consulting/enterprise/lambda-architecture)
+
+   [Lambda Architecture Example](https://github.com/apssouza22/big-data-pipeline-lambda-arch)
